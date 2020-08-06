@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: roboto;
+    text-align: center;
+    color: rgb(43, 43, 43);
+    background-color: rgba(183, 198, 186, 0.3);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 460px) {
+    div {
+        font-size: 12px;
+    }
+}
+
+figure {
+    padding: 12px;
+    max-width: 560px;
+    background-color: rgb(252, 251, 251);
+
+}
+
+@media (max-width: 460px) {
+    figcaption {
+        font-size: 12px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+p {
+    max-width: 640px;
+    margin: 0 16px 0 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    margin: 40px 8px;
+}
